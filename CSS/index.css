@@ -1,0 +1,17 @@
+.gonggao-box{
+    overflow: hidden;
+}
+.gonggao-lft{
+    float: left;
+    width: 400px;
+    background-color: rgb(198, 182, 94);
+    height: auto;
+}
+.gonggao-lft h3{
+    text-align: center;
+    color: rgb(165, 120, 7);
+}
+.gonggao-rgt{
+    margin-left: 200px;
+    height: auto;
+}
