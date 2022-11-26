@@ -1,5 +1,13 @@
 @font-face {
     font-family: "Aa卑微的我喜欢遥远的你";
-    src: local("AaBeiWeiDeWoXiHuanYaoYuanDeNi-2")， url("https://5h9igzqanx.github.io/SCDWBST/FONT/AaBeiWeiDeWoXiHuanYaoYuanDeNi-2.ttf")；
-}
-/*Aa卑微的我喜欢遥远的你（位于FONT文件夹）↑*/
+    src: local("AaBeiWeiDeWoXiHuanYaoYuanDeNi-2")， 
+        url("https://5h9igzqanx.github.io/SCDWBST/FONT/AaBeiWeiDeWoXiHuanYaoYuanDeNi-2.ttf")；
+}/*Aa卑微的我喜欢遥远的你(位于本地“FONT”文件夹)↑*/
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: local("fontawesome-webfont.ttf")
+        url('https: //5h9igzqanx.github.io/SCDWBST/FONT/fontawesome-webfont.ttf');
+    font-weight: normal;
+    font-style: normal;
+}/*FontAwesome(位于本地“FONT”文件夹)↑*/
