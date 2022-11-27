@@ -5,9 +5,10 @@
 .gonggao-lft{
     float: left;
     width: 40%;
+    height: 380px;
+    overflow-y: auto;
     background-color: rgb(198, 182, 94);
     border: 3px dashed rgb(165, 120, 7);
-    height: 380px;
 }
 .gonggao-lft h2{
     text-align: center;
