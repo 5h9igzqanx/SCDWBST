@@ -10,8 +10,8 @@
     font-weight: normal;
     font-style: normal;
 }/*FontAwesome(位于本地“fonts”文件夹)↑*/
-@font-face {
+/*@font-face {
     font-family: "楷体";
     src: local("simkai.ttf"),
         url("https://5h9igzqanx.github.io/SCDWBST/FONT/fonts/simkai.ttf");
-}/*楷体(位于本地“fonts”文件夹，为计算机未安装楷体的人准备的备用方案)*/
+}*//*楷体(位于本地“fonts”文件夹，为计算机未安装楷体的人准备的备用方案)*/
