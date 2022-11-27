@@ -26,3 +26,19 @@
     margin-left: 40%;
     height: auto;
 }
+/*星星↓*/
+.xing-boss{
+    width: 308px;
+    margin: 50px auto;
+    border: solid 1px #cadeea;
+}
+.xing-boss div{
+    width: 20px;
+    height: 20px;
+    border: solid 1px #cadeea;
+    float: left;
+}
+.xing-boss div img{
+    display: block;
+    width: 100%;
+}
