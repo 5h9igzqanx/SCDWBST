@@ -1,4 +1,9 @@
 @font-face {
+    font-family: 'Comic Sans MS ZX';
+    src: local("Comic Sans MS"),
+        url("https://5h9igzqanx.github.io/SCDWBST/FONT/fonts/Comic Sans MS.ttf");
+}/*Comic Sans MS(位于本地“fonts”文件夹，为计算机未安装楷体的人准备的备用方案)↑*/
+@font-face {
     font-family: "Aa卑微的我喜欢遥远的你";
     src: local("AaBeiWeiDeWoXiHuanYaoYuanDeNi-2.ttf")， 
         url("https://5h9igzqanx.github.io/SCDWBST/FONT/fonts/AaBeiWeiDeWoXiHuanYaoYuanDeNi-2.ttf")；
@@ -14,4 +19,4 @@
     font-family: "楷体";
     src: local("simkai.ttf"),
         url("https://5h9igzqanx.github.io/SCDWBST/FONT/fonts/simkai.ttf");
-}*//*楷体(位于本地“fonts”文件夹，为计算机未安装楷体的人准备的备用方案)*/
+}*//*楷体(位于本地“fonts”文件夹，为计算机未安装楷体的人准备的备用方案)↑(弃用)*/
