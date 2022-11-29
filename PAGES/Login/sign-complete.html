@@ -1,0 +1,57 @@
+<!--原文来自于"https://blog.csdn.net/bhegi_seg/article/details/123394504"-->
+<!--js代码来自于"https://baijiahao.baidu.com/s?id=1662964646733235703"-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sign in - Zhang X</title>
+        <link rel="shortcut icon" href="../../MEDIA/pictures/index/LOGO.jpg">
+        <link rel="stylesheet" href="../../CSS/page-style/sign.css">
+        <style>
+            .input-container p{
+                color: white;
+            }
+            .input-container span{
+                color: white;
+            }
+        </style>
+        <script type="text/Javascript">
+            var t = 10;//设定跳转的时间 
+            setInterval("refer()", 1000); //启动1秒定时 
+            function refer() {
+                        if (t == 0){
+            location = "https://5h9igzqanx.github.io/SCDWBST/"; //跳转的地址
+                }
+                document.getElementById('show').innerHTML = "" + t + "秒后跳转转到主页"; // 显示倒计时 
+                t--; // 计数器递减 
+            } 
+        </script>
+    </head>
+    <body>
+        <div class="login-container">
+            <div class="left-container">
+                <div class="title"><span>登录成功！</span></div>
+                <div class="input-container">
+                    <p>登录成功</p>
+                    <br>
+                    <span id="show"></span>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                <div class="message-container">
+                    <br>
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="regist-container">
+                    <span class="regist"><a href="sign-up.html" style="text-decoration: none; color: white;">未自动跳转👇</a></span>
+                </div>
+                <div class="action-container">
+                    <span><a href="sign-complete.html" style="text-decoration: none; color: white;">跳转</a></span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
