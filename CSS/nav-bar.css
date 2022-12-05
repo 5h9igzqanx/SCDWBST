@@ -22,9 +22,16 @@
 .header h1{
     font-family: 'Comic Sans MS ZX', cursive;
 }
+.LOGO img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 5.5%;
+    height: 5.5%;
+}
 .LOGO h1{
     color: black;
     font-size: 30px;
+    margin-bottom: 10px;
 }
 .nav a{
     text-decoration: none;
