@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>message board - Zhang X</title>
+        <link rel="shortcut icon" href="../../MEDIA/pictures/index/LOGO.jpg">
+        <link rel="stylesheet" href="../../CSS/nav-bar.css">
+        <link rel="stylesheet" href="../../CSS/footer.css">
+        <link rel="stylesheet" href="../../FONT/font.css">
+        <link rel="stylesheet" href="../../CSS/function-style/message-board.css">
+        <link rel="stylesheet" href="../../CSS/cherish.css">
+        <script src="../../JS/function/jquery-3.6.1.min.js"></script>
+        <!--script src="../../JS/function/message-board.js"></script>-->
+        <script>
+            //击钮添li签
+                $('#btn').click(
+                    function () {
+                        //取文值
+                        let Name = $('#user').val()
+                        let Content = $('#Content').val()
+                        //断为本值？
+                        if (Name != '' && Content != '') {
+                            //得文值
+                            var msg = `<li>
+                                <div class="ctnt">
+                                    <span>${Name}:</span>
+                                    <p>${Content}</p>
+                                </div>
+                            </li>`
+                            //添文值
+                            $('ul').append(msg);
+                            //删文值
+                            $('#user').val('')
+                            $('#Content').val('')
+                        }
+                    }
+                )
+        </script>
+    </head>
+    <body bgcolor="cadeea">
+        <div class="header">
+            <div class="LOGO"><a href="https://5h9igzqanx.github.io/SCDWBST/"><h1><img width="5%" height="5%" src="../../MEDIA/pictures/index/LOGO.jpg">&emsp;&ensp;my second website</h1></a></div>
+            <div class="nav">
+                <a href="https://5h9igzqanx.github.io/SCDWBST/">首页&ensp;</a>
+                <a href="../search.html">全知&ensp;</a>
+                <a href="../page/project.html">项目&ensp;</a>
+                <a href="../page/cooperation.html">合作&ensp;</a>
+                <a href="../page/about.html">关于&ensp;</a>
+                <a href="../page/help.html">帮助&ensp;</a>
+                <a href="https://5h9igzqanx.github.io/wz-zx/">滚回去</a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="main-body">
+            <h4 style="color: rgb(152, 152, 152);">ㄨ，你是来找可莉玩的吗</h4>
+            <h2>欢迎来到留言板！</h2>
+            <h4>在这里，你可以畅所欲言，可以倾泻自己的不满，可以倾诉自己的愤怒</h4>
+            <h4>可以抒发自己的快感，可以分享自己的喜悦</h4>
+            <p>(亦或是吐槽一下github服务器)</p>
+            <h4>在这里，没人管你，也没人管得着你</h4>
+            <h4>反正，畅所欲言吧！</h4>
+            <br>
+        </div>
+        <form action="post">
+            <h2>message</h2>
+            <label for="user">昵称</label>
+            <input type="text" id="user" placeholder="你希望别人看到的署名是什么？">
+            <label for="Content">内容</label>
+            <textarea name="Content" id="Content" cols="38" rows="10" placeholder="&ensp;你希望在此写些什么"></textarea>
+            <input type="button" name="btn" id="btn" value="击此提交">
+        </form>
+        <br>
+        <br>
+        <ul>
+            <li>
+                <div class="ctnt">
+                    <span>管理员:</span>
+                    <p>欢迎留言（如果你嫌公告栏麻烦的话（哦，我指的是流程）可以来此留言）</p>
+                </div>
+            </li>
+            <li>
+                <div class="ctnt">
+                    <span>管理员:</span>
+                    <p>此为半成品，不可留言！！！！！</p>
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>
